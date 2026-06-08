@@ -57,7 +57,7 @@ The project is intended to be generic enough to support different node and tool 
 ├── assignment
 │   ├── src/main/java
 │   ├── src/main/resources
-│   │   ├── application.properties
+│   │   ├── application.yml
 │   │   └── data.sql
 │   ├── Dockerfile
 │   └── pom.xml
@@ -70,31 +70,7 @@ The project is intended to be generic enough to support different node and tool 
 │   └── vite.config.ts
 │
 ├── docker-compose.yml
-├── .env.example
 └── README.md
-```
-
----
-
-## Environment Variables
-
-The backend is configured using environment variables. Do not commit real API keys.
-
-Create a `.env` file in the project root:
-
-```env
-OPENAI_API_KEY=your_openai_api_key_here
-
-SERVER_PORT=8080
-
-DB_URL=jdbc:h2:mem:workflowdb
-DB_DRIVER=org.h2.Driver
-DB_USERNAME=sa
-DB_PASSWORD=
-
-JPA_DDL_AUTO=create-drop
-SQL_INIT_MODE=always
-H2_CONSOLE_ENABLED=true
 ```
 
 
