@@ -556,7 +556,7 @@ sequenceDiagram
     Runner->>DB: Load workflow with ordered nodes
     DB-->>Runner: Workflow nodes
 
-    For each node by position
+    loop For each node by position
         alt Input Node
             Runner->>Runner: Store variable in context
         else Tool Node
