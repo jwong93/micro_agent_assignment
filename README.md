@@ -595,6 +595,7 @@ sequenceDiagram
 - No execution history table yet.
 - No proper UI error message (e.g Workflow failed but no reason given)
 - Workflow must be saved before execution 
+- Execution logs for each node not showing up
 
 ---
 
